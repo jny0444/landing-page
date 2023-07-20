@@ -1,0 +1,240 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* header */
+
+.header-logo {
+    background-color: rgb(217, 135, 152);
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-cl {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;   
+}
+
+a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* main */
+
+.main {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 32px;
+    min-height: 86vh;
+}
+
+.left-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    word-wrap: normal;
+    width: 500px;
+    margin-bottom: 0;
+}
+
+.main-desc {
+    color: #e5e7eb;
+    word-wrap: normal;
+    width: 420px;
+    margin-top: 5px;
+}
+
+.sign-up#one {
+    background-color: #3883f6;
+    border: 2px solid #3883f6;
+    border-radius: 4px;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 5px 30px;
+    align-self: flex-start;
+}
+
+.img-placeholder {
+    height: auto;
+    width: 400px;
+    border: none;
+}
+
+/* info */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border: #3883f6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.img-text {
+    word-wrap: normal;
+    width: 200px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    word-wrap: normal;
+    width: 800px;
+    padding: 0;
+    margin: 0;
+} 
+
+.quote-author {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* sign up */
+
+.sign-up#two {
+    background-color: #3883f6;
+    padding: 0;
+    margin: 100px 150px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.action-time {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.sign-up-bottom {
+    color: #e5e7eb;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-button {
+    font-size: 15px;
+    color: #f9faf8;
+    background-color: #3883f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 2px solid #1f2937;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    padding: 22px;
+}
